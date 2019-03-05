@@ -4,7 +4,7 @@
 
     Board print_board()
     {
-        for (i = 0; i < 8; i++)
+        for (size_t i = 0; i < 8; i++)
         {
 	    char cell = 0;
 	    case 0:
@@ -28,4 +28,17 @@
 	    default:
 		break;
 	}cell.board[0][i];
+
+        for (size_t i = 0; i < 8; i++)
+        {
+	    cell = 'P';
+	}cell.board[1][i];
+
+	for (size_t i = 0; i < 8; i++)
+	{
+	    for (size_t j = 2; j < 5; j++)
+	    {
+		cell = ' ';
+	    }
+	}cell.board[j][i];
 
